@@ -1,10 +1,15 @@
-# 👻 PaceGhost
+<div align="center">
+  <img src="assets/paceghost_256x256.png" width="96" height="96" alt="PaceGhost" />
+
+# PaceGhost
 
 **Real-time iRacing overlay — compare your inputs against a reference lap**
 
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square&logo=windows)
 ![iRacing](https://img.shields.io/badge/sim-iRacing-e8282b?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![License](https://img.shields.io/badge/license-Proprietary-red?style=flat-square)
+
+</div>
 
 ---
 
@@ -118,7 +123,7 @@ No admin rights required after installation.
 
 ## License
 
-MIT © PaceGhost
+© 2026 Tiago Rocha — Free to use and distribute in original form. Modification or reuse requires written consent.
 
 ---
 
@@ -238,4 +243,4 @@ Não são necessárias permissões de administrador após a instalação.
 
 ## Licença
 
-MIT © PaceGhost
+© 2026 Tiago Rocha — Uso e distribuição na forma original permitidos. Modificação ou reutilização requer consentimento escrito.
