@@ -1,12 +1,10 @@
-<div align="center">
-  <h1>👻 PaceGhost</h1>
-  <p><strong>Real-time iRacing overlay — compare your inputs against a reference lap</strong></p>
-  <p>
-    <img alt="Platform" src="https://img.shields.io/badge/platform-Windows-blue?style=flat-square&logo=windows" />
-    <img alt="iRacing" src="https://img.shields.io/badge/sim-iRacing-e8282b?style=flat-square" />
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-green?style=flat-square" />
-  </p>
-</div>
+# 👻 PaceGhost
+
+**Real-time iRacing overlay — compare your inputs against a reference lap**
+
+![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square&logo=windows)
+![iRacing](https://img.shields.io/badge/sim-iRacing-e8282b?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 ---
 
