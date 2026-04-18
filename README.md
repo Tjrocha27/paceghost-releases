@@ -19,6 +19,31 @@ Import a CSV from [Garage61](https://garage61.net), open iRacing, and PaceGhost 
 
 ---
 
+## 🚀 Download & Verification
+
+**Official installer is distributed exclusively through GitHub Releases.**
+
+To validate file integrity:
+
+- Compare the published SHA256 hash with your downloaded file
+- Check the VirusTotal analysis for this specific version
+- Single detections may be false positives (common with Windows installers)
+
+<details>
+<summary>Latest version verification → vX.X.X</summary>
+
+**SHA256:** `A0C99BC9410C6454B0D14D8AFD2E69F254E9536A6D7DCB137F3EB35A00B0FDBD` _(update after each release)_  
+**VirusTotal:** [View analysis](https://www.virustotal.com/gui/file/3bc3bc6b8b820c61b716c8fef6faea979dd20829a2124e069fcd8a9d8b67869d) _(update after each release)_
+
+```powershell
+# Windows PowerShell - verify hash
+Get-FileHash -Algorithm SHA256 "PaceGhost-Setup-X.X.X.exe"
+```
+
+</details>
+
+---
+
 ## Features
 
 - **Throttle & Brake overlay** — live bars side-by-side with reference lap inputs
@@ -45,8 +70,9 @@ Import a CSV from [Garage61](https://garage61.net), open iRacing, and PaceGhost 
 
 1. Go to the [Releases](../../releases) page
 2. Download the latest `PaceGhost-Setup-x.x.x.exe`
-3. Run the installer and follow the on-screen steps
-4. Launch **PaceGhost** from the Start Menu or Desktop shortcut
+3. **Verify the SHA256 hash** (see Download & Verification section)
+4. Run the installer and follow the on-screen steps
+5. Launch **PaceGhost** from the Start Menu or Desktop shortcut
 
 No admin rights required after installation.
 
@@ -92,14 +118,14 @@ No admin rights required after installation.
 
 ## Settings
 
-| Setting                               | Description                                                                              |
-| ------------------------------------- | ---------------------------------------------------------------------------------------- |
-| **Som geral / Master audio**          | Enable or disable all audio alerts                                                       |
-| **Aviso travagem / Brake alert**      | Audio cue when entering a brake zone                                                     |
-| **Aviso acelerador / Throttle alert** | Audio cue on throttle events                                                             |
-| **Tolerância travagem (±%)**          | Tolerance for brake peak comparison (default: ±5%)                                       |
-| **Show overlays without iRacing**     | Show all overlays even when iRacing is not running (for positioning) — resets on restart |
-| **Opacidade / Opacity**               | Global overlay opacity (20–100%)                                                         |
+| Setting                           | Description                                        |
+| --------------------------------- | -------------------------------------------------- |
+| **Master audio**                  | Enable or disable all audio alerts                 |
+| **Brake alert**                   | Audio cue when entering a brake zone               |
+| **Throttle alert**                | Audio cue on throttle events                       |
+| **Brake tolerance (±%)**          | Tolerance for brake peak comparison (default: ±5%) |
+| **Show overlays without iRacing** | Show all overlays even when iRacing is not running |
+| **Opacity**                       | Global overlay opacity (20–100%)                   |
 
 ---
 
@@ -113,7 +139,7 @@ No admin rights required after installation.
 
 **"No Signal" badge stays on**
 
-- PaceGhost connects to iRacing via the telemetry SDK — make sure iRacing is running and you are in a session (practice, qualify, or race)
+- PaceGhost connects to iRacing via the telemetry SDK — make sure iRacing is running and you are in a session
 
 **Overlays are behind the game window**
 
@@ -127,8 +153,6 @@ No admin rights required after installation.
 
 ---
 
----
-
 # 🇵🇹 Versão em Português
 
 ---
@@ -136,6 +160,31 @@ No admin rights required after installation.
 O PaceGhost é um overlay leve para Windows que te permite comparar os teus inputs de acelerador, travão, caixa e delta de tempo contra uma volta de referência em tempo real — diretamente por cima do iRacing, sem impacto na performance.
 
 Importa um CSV do [Garage61](https://garage61.net), abre o iRacing, e o PaceGhost mostra-te exatamente onde ganhas e perdes tempo face à tua melhor volta ou a um piloto mais rápido.
+
+---
+
+## 🚀 Download & Verificação
+
+**O instalador oficial é distribuído exclusivamente através dos Releases do GitHub.**
+
+Para validar a integridade do ficheiro:
+
+- Compara o SHA256 publicado com o hash do ficheiro descarregado
+- Consulta a análise do VirusTotal para esta versão específica
+- Deteções isoladas podem ser falsos positivos (comum em instaladores Windows)
+
+<details>
+<summary>Verificação versão mais recente → vX.X.X</summary>
+
+**SHA256:** `a1b2c3d4e5f67890abcdef1234567890abcdef1234567890abcdef1234567890` _(atualizar após cada release)_  
+**VirusTotal:** [Ver análise](https://www.virustotal.com/gui/file/3bc3bc6b8b820c61b716c8fef6faea979dd20829a2124e069fcd8a9d8b67869d) _(atualizar após cada release)_
+
+```powershell
+# PowerShell Windows - verificar hash
+Get-FileHash -Algorithm SHA256 "PaceGhost-Setup-X.X.X.exe"
+```
+
+</details>
 
 ---
 
@@ -165,8 +214,9 @@ Importa um CSV do [Garage61](https://garage61.net), abre o iRacing, e o PaceGhos
 
 1. Vai à página de [Releases](../../releases)
 2. Descarrega o ficheiro `PaceGhost-Setup-x.x.x.exe` mais recente
-3. Corre o instalador e segue os passos
-4. Lança o **PaceGhost** a partir do Menu Iniciar ou atalho no Ambiente de Trabalho
+3. **Verifica o SHA256** (ver secção Download & Verificação)
+4. Corre o instalador e segue os passos
+5. Lança o **PaceGhost** a partir do Menu Iniciar ou atalho no Ambiente de Trabalho
 
 Não são necessárias permissões de administrador após a instalação.
 
@@ -200,26 +250,26 @@ Não são necessárias permissões de administrador após a instalação.
 
 ## Overlays
 
-| Overlay              | Descrição                                                                                  |
-| -------------------- | ------------------------------------------------------------------------------------------ |
-| **Throttle / Brake** | Barras de acelerador e travão ao vivo e de referência                                      |
-| **Gear**             | Marcha atual vs. marcha de referência com destaque em caso de discrepância                 |
-| **Delta**            | Barra de delta de tempo — verde quando à frente, vermelho quando atrás                     |
-| **Trace**            | Trace contínuo de acelerador/travão dos últimos segundos                                   |
-| **Next Brake**       | Distância até à próxima zona de travagem, referência de travão máximo e comparação de pico |
+| Overlay              | Descrição                                                          |
+| -------------------- | ------------------------------------------------------------------ |
+| **Throttle / Brake** | Barras de acelerador e travão ao vivo e de referência              |
+| **Gear**             | Marcha atual vs. marcha de referência com destaque em discrepância |
+| **Delta**            | Barra de delta de tempo — verde quando à frente, vermelho atrás    |
+| **Trace**            | Trace contínuo de acelerador/travão dos últimos segundos           |
+| **Next Brake**       | Distância até próxima zona de travagem, referência máxima e pico   |
 
 ---
 
 ## Definições
 
-| Definição                         | Descrição                                                                                      |
-| --------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Som geral**                     | Ativar ou desativar todos os alertas de áudio                                                  |
-| **Aviso travagem**                | Aviso sonoro ao entrar numa zona de travagem                                                   |
-| **Aviso acelerador**              | Aviso sonoro em eventos de acelerador                                                          |
-| **Tolerância travagem (±%)**      | Tolerância para comparação do pico de travagem (padrão: ±5%)                                   |
-| **Show overlays without iRacing** | Mostra todos os overlays mesmo sem o iRacing aberto (para posicionamento) — reinicia ao fechar |
-| **Opacidade**                     | Opacidade global dos overlays (20–100%)                                                        |
+| Definição                             | Descrição                                                        |
+| ------------------------------------- | ---------------------------------------------------------------- |
+| **Som geral / Master audio**          | Ativar ou desativar todos os alertas de áudio                    |
+| **Aviso travagem / Brake alert**      | Aviso sonoro ao entrar numa zona de travagem                     |
+| **Aviso acelerador / Throttle alert** | Aviso sonoro em eventos de acelerador                            |
+| **Tolerância travagem (±%)**          | Tolerância para comparação do pico de travagem (padrão: ±5%)     |
+| **Show overlays without iRacing**     | Mostra todos os overlays mesmo sem iRacing (para posicionamento) |
+| **Opacidade / Opacity**               | Opacidade global dos overlays (20–100%)                          |
 
 ---
 
@@ -233,7 +283,7 @@ Não são necessárias permissões de administrador após a instalação.
 
 **O badge "No Signal" mantém-se**
 
-- O PaceGhost liga-se ao iRacing via SDK de telemetria — certifica-te que o iRacing está em execução e que estás numa sessão (treino livre, qualificação ou corrida)
+- O PaceGhost liga-se ao iRacing via SDK de telemetria — certifica-te que o iRacing está em execução e que estás numa sessão
 
 **Os overlays ficam atrás da janela do jogo**
 
