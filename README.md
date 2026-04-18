@@ -30,7 +30,7 @@ To validate file integrity:
 - Single detections may be false positives (common with Windows installers)
 
 <details>
-<summary>Latest version verification → vX.X.X</summary>
+<summary>Latest version verification → v0.7.3</summary>
 
 **SHA256:** `A0C99BC9410C6454B0D14D8AFD2E69F254E9536A6D7DCB137F3EB35A00B0FDBD` _(update after each release)_  
 **VirusTotal:** [View analysis](https://www.virustotal.com/gui/file/3bc3bc6b8b820c61b716c8fef6faea979dd20829a2124e069fcd8a9d8b67869d) _(update after each release)_
@@ -174,7 +174,7 @@ Para validar a integridade do ficheiro:
 - Deteções isoladas podem ser falsos positivos (comum em instaladores Windows)
 
 <details>
-<summary>Verificação versão mais recente → vX.X.X</summary>
+<summary>Verificação versão mais recente → v0.7.3</summary>
 
 **SHA256:** `a1b2c3d4e5f67890abcdef1234567890abcdef1234567890abcdef1234567890` _(atualizar após cada release)_  
 **VirusTotal:** [Ver análise](https://www.virustotal.com/gui/file/3bc3bc6b8b820c61b716c8fef6faea979dd20829a2124e069fcd8a9d8b67869d) _(atualizar após cada release)_
