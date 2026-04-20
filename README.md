@@ -8,6 +8,11 @@
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square&logo=windows)
 ![iRacing](https://img.shields.io/badge/sim-iRacing-e8282b?style=flat-square)
 ![License](https://img.shields.io/badge/license-Proprietary-red?style=flat-square)
+![Ko-fi](https://img.shields.io/badge/support-Ko--fi-ff5f5f?style=flat-square&logo=ko-fi)
+
+PaceGhost is free. If it helps you find time on track, consider buying me a coffee ☕
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/paceghost)
 
 </div>
 
