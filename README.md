@@ -38,7 +38,7 @@ To validate file integrity:
 <summary>Latest version verification → v0.9.0</summary>
 
 **SHA256:** `871A7A817B4D75A70DCBB1C7EF040D5750C55CAA91E9B538FA79C6BC5145E8DF` _(update after each release)_  
-**VirusTotal:** [View analysis](https://www.virustotal.com/gui/file/3bc3bc6b8b820c61b716c8fef6faea979dd20829a2124e069fcd8a9d8b67869d) _(update after each release)_
+**VirusTotal:** [View analysis](https://www.virustotal.com/gui/file/871a7a817b4d75a70dcbb1c7ef040d5750c55caa91e9b538fa79c6bc5145e8df) _(update after each release)_
 
 ```powershell
 # Windows PowerShell - verify hash
@@ -182,7 +182,7 @@ Para validar a integridade do ficheiro:
 <summary>Verificação versão mais recente → v0.9.0</summary>
 
 **SHA256:** `871A7A817B4D75A70DCBB1C7EF040D5750C55CAA91E9B538FA79C6BC5145E8DF` _(atualizar após cada release)_  
-**VirusTotal:** [Ver análise](https://www.virustotal.com/gui/file/3bc3bc6b8b820c61b716c8fef6faea979dd20829a2124e069fcd8a9d8b67869d) _(atualizar após cada release)_
+**VirusTotal:** [Ver análise](https://www.virustotal.com/gui/file/871a7a817b4d75a70dcbb1c7ef040d5750c55caa91e9b538fa79c6bc5145e8df) _(atualizar após cada release)_
 
 ```powershell
 # PowerShell Windows - verificar hash
