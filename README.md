@@ -35,10 +35,10 @@ To validate file integrity:
 - Single detections may be false positives (common with Windows installers)
 
 <details>
-<summary>Latest version verification → v.0.11.0</summary>
+<summary>Latest version verification → v.0.11.1</summary>
 
-**SHA256:** `B1829E9087AFE2482CC8A9ECEBCD7C042C05484BEDA63EF0D55D040CDCB003CC` _(update after each release)_  
-**VirusTotal:** [View analysis](https://www.virustotal.com/gui/file-analysis/OGZlNmM0NWRhMzkyMjk5ZmZjYWYzNWM3OTFiODE4ZmE6MTc3NzM5ODczNg==) _(update after each release)_
+**SHA256:** `0136657E2582981487C1C0A1C36C1C82D19A8810D7F04C8BFA853AD2E85417D8` _(update after each release)_  
+**VirusTotal:** [View analysis](https://www.virustotal.com/gui/file-analysis/NmY1YmU1ZmNhNDYwNTYwODA4ZDY1N2RhNjRhMjBhMmI6MTc3NzQ4MTcyOQ==) _(update after each release)_
 
 ```powershell
 # Windows PowerShell - verify hash
@@ -54,7 +54,7 @@ Get-FileHash -Algorithm SHA256 "PaceGhost-Setup-X.X.X.exe"
 - **Throttle & Brake overlay** — live bars side-by-side with reference lap inputs
 - **Gear overlay** — current gear vs. reference gear with mismatch alert
 - **Delta overlay** — live time delta bar vs. reference lap
-- **Trace overlay** — throttle/brake trace graph for the last few seconds
+- **Trace overlay** — throttle/brake/brake trace graph for the last few seconds
 - **Next Brake overlay** — distance to the next braking zone with max brake pressure reference and live peak comparison
 - **Audio alerts** — optional sound cues for brake and throttle events
 - **Per-overlay visibility & opacity controls** — customise what you see and how prominent it is
@@ -179,10 +179,10 @@ Para validar a integridade do ficheiro:
 - Deteções isoladas podem ser falsos positivos (comum em instaladores Windows)
 
 <details>
-<summary>Verificação versão mais recente → v.0.11.0</summary>
+<summary>Verificação versão mais recente → v.0.11.1</summary>
 
-**SHA256:** `B1829E9087AFE2482CC8A9ECEBCD7C042C05484BEDA63EF0D55D040CDCB003CC` _(atualizar após cada release)_  
-**VirusTotal:** [Ver análise](https://www.virustotal.com/gui/file-analysis/OGZlNmM0NWRhMzkyMjk5ZmZjYWYzNWM3OTFiODE4ZmE6MTc3NzM5ODczNg==) _(atualizar após cada release)_
+**SHA256:** `0136657E2582981487C1C0A1C36C1C82D19A8810D7F04C8BFA853AD2E85417D8` _(atualizar após cada release)_  
+**VirusTotal:** [Ver análise](https://www.virustotal.com/gui/file-analysis/NmY1YmU1ZmNhNDYwNTYwODA4ZDY1N2RhNjRhMjBhMmI6MTc3NzQ4MTcyOQ==) _(atualizar após cada release)_
 
 ```powershell
 # PowerShell Windows - verificar hash
