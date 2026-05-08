@@ -35,10 +35,10 @@ To validate file integrity:
 - Single detections may be false positives (common with Windows installers)
 
 <details>
-<summary>Latest version verification → v.0.11.1</summary>
+<summary>Latest version verification → v.0.12.0</summary>
 
-**SHA256:** `0136657E2582981487C1C0A1C36C1C82D19A8810D7F04C8BFA853AD2E85417D8` _(update after each release)_  
-**VirusTotal:** [View analysis](https://www.virustotal.com/gui/file-analysis/NmY1YmU1ZmNhNDYwNTYwODA4ZDY1N2RhNjRhMjBhMmI6MTc3NzQ4MTcyOQ==) _(update after each release)_
+**SHA256:** `FAD55E07D2598D0C82FF46FD8963A37ECFC889366A7B6B30839B859285E23C92` _(update after each release)_  
+**VirusTotal:** [View analysis](https://www.virustotal.com/gui/file-analysis/NWRkMDJjOGI2M2QxMTdkNjM5MmUwMjVlY2M4NTA4ODE6MTc3ODI1ODgwNg==) _(update after each release)_
 
 ```powershell
 # Windows PowerShell - verify hash
@@ -179,10 +179,10 @@ Para validar a integridade do ficheiro:
 - Deteções isoladas podem ser falsos positivos (comum em instaladores Windows)
 
 <details>
-<summary>Verificação versão mais recente → v.0.11.1</summary>
+<summary>Verificação versão mais recente → v.0.12.0</summary>
 
-**SHA256:** `0136657E2582981487C1C0A1C36C1C82D19A8810D7F04C8BFA853AD2E85417D8` _(atualizar após cada release)_  
-**VirusTotal:** [Ver análise](https://www.virustotal.com/gui/file-analysis/NmY1YmU1ZmNhNDYwNTYwODA4ZDY1N2RhNjRhMjBhMmI6MTc3NzQ4MTcyOQ==) _(atualizar após cada release)_
+**SHA256:** `FAD55E07D2598D0C82FF46FD8963A37ECFC889366A7B6B30839B859285E23C92` _(atualizar após cada release)_  
+**VirusTotal:** [Ver análise](https://www.virustotal.com/gui/file-analysis/NWRkMDJjOGI2M2QxMTdkNjM5MmUwMjVlY2M4NTA4ODE6MTc3ODI1ODgwNg==) _(atualizar após cada release)_
 
 ```powershell
 # PowerShell Windows - verificar hash
